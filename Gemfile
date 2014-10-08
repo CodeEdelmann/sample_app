@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.1'
 gem 'bootstrap-sass'
 gem 'sprockets'
-gem 'bcrypt-ruby'
+gem 'bcrypt'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'sqlite3'
@@ -15,6 +15,7 @@ end
 group :test do
 	gem 'selenium-webdriver'
 	gem 'capybara'
+	gem 'factory_girl_rails'
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
